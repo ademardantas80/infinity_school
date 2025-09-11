@@ -1,0 +1,17 @@
+numero_escolhido = 7
+tentativa = 0
+contador = 0
+
+while tentativa != numero_escolhido:
+    tentativa = int(input("Tente adivinhar que número inteiro, de 0 à 10, que eu tenho em minha memória: "))
+    if tentativa == 7:
+        print("Parabéns, você acertou!")
+    elif tentativa != 7 and contador == 0:
+        print("Quase! vamos tentar novamente?")
+        contador += 1
+    elif tentativa != 7 and contador == 1:
+        print("Não foi dessa vez, faça um esforcinho... você vai conseguir...")
+        contador += 1    
+    elif tentativa != 7 and contador == 2:
+        print("Poxa... não foi dessa vez...")
+        break
