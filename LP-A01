@@ -1,0 +1,7 @@
+tempo_de_servico = 2
+saldo_fgts = int(10000)
+
+if tempo_de_servico >= 1:
+    print (f"O trabalhador tem direito à multa de R$ {saldo_fgts * 0.4}.")
+else:
+    print ("O trabalhador não tem direito à multa.")
