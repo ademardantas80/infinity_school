@@ -1,0 +1,11 @@
+horas_trabalhadas = float(input('Quantas horas vocês trabalhou essa semana? '))
+
+valor_hora = 15
+valor_extra = 22.50
+
+if horas_trabalhadas == 44:
+    print(f"A jornada foi cumprida corretamente. Seu salário essa semana será de R${horas_trabalhadas * valor_hora}0")
+elif horas_trabalhadas < 44:
+    print(f"Você trabalhou menos que esperado, por isso seu salário essa semana será de apenas R${horas_trabalhadas * valor_hora}0")
+else:
+    print(f"Obrigado pelo seu esforço extra! Essa semana você fez {horas_trabalhadas - 44} horas-extra, seu salário será de R${((horas_trabalhadas - 44) * valor_extra) + (valor_hora * 44)}0")
