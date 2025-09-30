@@ -1,0 +1,5 @@
+salario = input('Informe o saláro do trabalhador: ')
+meses_trabalhados = input('Informe quantos meses trabalhados: ')
+
+ferias_proporcionais = (int(salario) / 12) * int(meses_trabalhados)
+print(f"As férias proporcionais do trabalhador é igual a R${ferias_proporcionais}0")
