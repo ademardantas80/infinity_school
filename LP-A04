@@ -1,0 +1,9 @@
+salario = int(input("Informar o valor do salário: "))
+dias_atraso = int(input("Informar quantos dias de atraso: "))
+multa_diaria = 0.02
+
+if dias_atraso >5:
+    valor_multa = (salario * multa_diaria) * dias_atraso
+    print(f"Considerando que o salário do trabalhador é de R${salario} e que a empresa atrasou o pagamento em {dias_atraso} dias, aplicando-se a multa de 2% (dois por cento) diária, razão pela qual o trabalhador tem direito a receber {valor_multa}, a título de multa.")
+else:
+    print("Não há multa a ser cobrada da empresa.")
