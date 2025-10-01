@@ -1,0 +1,7 @@
+frutas = ['Morango', 'Abacaxi', 'Cajú', 'Pêssego', 'Banana', 'Tomate']
+
+print(frutas)
+
+frutastup = tuple(frutas)
+
+print(frutastup)
