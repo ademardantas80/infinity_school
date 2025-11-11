@@ -1,0 +1,10 @@
+alunos = []
+
+for i in range (5):
+    nome = input(f'Insira o nome do {i+1}º aluno: ')
+    nota = float(input(f'Insira a nota de {nome}: '))
+    alunos.append((nome, nota))
+
+maior_tupla = max(alunos, key=lambda t: t[1])
+
+print(f"O(A) melhor aluno(a) é {maior_tupla[0]}, com a nota {maior_tupla[1]:.2f}")
