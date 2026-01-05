@@ -1,0 +1,10 @@
+def media():
+    soma = 0
+    for i in range(3):
+        soma += float(input(f"Digite o {i+1}º número: "))
+    return soma / 3
+    
+
+resultado = media()
+
+print(f"A média aritmética é:{resultado:.2f}")
