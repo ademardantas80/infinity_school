@@ -1,0 +1,8 @@
+compras = {}
+
+for i in range(1, 6):
+    nome = input(f'Insira o nome do produto {i}: ')
+    valor = float(input(f'Insira o valor do produto {i}: '))
+    compras[nome] = valor
+
+print(f'O total das compras é igual a: {sum(compras.values()):.2f}')
