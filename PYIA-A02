@@ -1,0 +1,7 @@
+contatos = {
+    'nome': input('Insira o nome do novo contato:'),
+    'telefone': input('Insira o telefone do novo contato:'),
+    'e-mail': input('Insira o e-mail do novo contato:'),
+}
+
+print(contatos)
